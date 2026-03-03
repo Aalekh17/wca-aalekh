@@ -4,19 +4,15 @@ import helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-GA_SCRIPT = """
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QNHC9ESRHD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'G-QNHC9ESRHD');
 </script>
-"""
-
-# Inject Google Analytics script invisibly
-st.components.v1.html(GA_SCRIPT, height=1, width=1)
 
 
 st.sidebar.title('Whatsapp Chat Analyser')
