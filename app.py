@@ -16,7 +16,7 @@ GA_SCRIPT = """
 """
 
 # Inject Google Analytics script invisibly
-st.components.v1.html(GA_SCRIPT, height=0, width=0)
+st.components.v1.html(GA_SCRIPT, height=1, width=1)
 
 
 st.sidebar.title('Whatsapp Chat Analyser')
